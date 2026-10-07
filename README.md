@@ -4,4 +4,8 @@
 
 Работающий сайт: https://chestno-kalkulyator-rosta.domorodanastasia8.chatgpt.site/
 
-Исходники используют Vinext и Cloudflare Workers/D1. GitHub Pages не поддерживает серверную часть этого проекта. Секреты OWNER_EMAIL, TELEGRAM_BOT_TOKEN и TELEGRAM_CHAT_ID задаются в настройках хостинга и не хранятся в репозитории.
+Исходники используют Vinext и Cloudflare Workers/D1. GitHub Pages не поддерживает серверную часть проекта. Секреты OWNER_EMAIL, TELEGRAM_BOT_TOKEN и TELEGRAM_CHAT_ID задаются в настройках хостинга и не хранятся в репозитории.
+
+Установка: `pnpm install`. Сборка: `pnpm build`. Команды запуска и миграций приведены в package.json. Для другого хостинга необходимо настроить D1, применить миграции из drizzle и адаптировать авторизацию владельца.
+
+Контакты клиентов хранятся в базе данных хостинга и в репозиторий не включены.
